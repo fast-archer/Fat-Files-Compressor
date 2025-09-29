@@ -1,8 +1,10 @@
-# Fat Files Compressor
+# 📂 Fat Files Compressor
 
 Fat Files Compressor is a Python-based command-line tool for compressing various file types, including videos, audio, images, and PDFs. It uses popular tools like `ffmpeg`, `pngquant`, and `ghostscript` to reduce file sizes while maintaining configurable quality levels. Ideal for users who need to save disk space or optimize files for sharing.
 
-## Features
+![](https://github.com/fast-archer/Fat-Files-Compressor/blob/main/Screenshot%20From%202025-09-29%2007-28-52%20(Edit).png)
+
+## 🚀 Features
 - **Supported Formats**:
   - **Videos**: `.mp4`, `.mkv`, `.avi`, `.mov`
   - **Audio**: `.mp3`, `.aac`, `.wav`, `.flac`
@@ -17,7 +19,7 @@ Fat Files Compressor is a Python-based command-line tool for compressing various
 - Detailed output showing original size, compressed size, savings, and processing time.
 - Logs errors to `compression.log` for debugging.
 
-## Installation
+## 📦 Installation
 
 ### Prerequisites
 - Python 3.6 or higher
@@ -34,7 +36,7 @@ Install them on Arch Linux:
 sudo pacman -S ffmpeg pngquant ghostscript
 ```
 
-### Setup
+### 📥 Setup
 1. Clone the repository:
    ```bash
    git clone https://github.com/fast-archer/fat-files-compressor.git
@@ -45,7 +47,7 @@ sudo pacman -S ffmpeg pngquant ghostscript
    chmod +x fatfiles.py
    ```
 
-## Usage
+## 👨🏻‍💻 Usage
 Run the script from the command line:
 ```bash
 ./fatfiles.py
@@ -59,7 +61,7 @@ Run the script from the command line:
    - `3`: High quality (less compression)
 4. Compressed files are saved in a `compressed` subfolder.
 
-### Example
+### 💡 Example
 ```bash
 $ ./fatfiles.py
 Fat Files Compressor v1.0
@@ -82,25 +84,25 @@ Compressing files: 100%|██████████████████�
 Done! All compressed files are in the 'compressed' folder.
 ```
 
-## Notes
+## 📝 Notes
 - Large files (>100 MB) trigger a confirmation prompt to avoid long processing times.
 - If a dependency is missing, the script prompts to install it via `pacman`.
 - WebP compression uses `ffmpeg` with `libwebp` support. Ensure your `ffmpeg` is compiled with WebP support (`ffmpeg -h encoder=libwebp`).
 - GIF compression may be slow for large files due to palette optimization.
 
-## Contributing
+## 🗣️ Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests for new features, bug fixes, or additional format support.
 
-##  Contact
+## 🌐 Contact
 
 For discussions or suggestions, reach out:
 - **Email**: epidermis_essential@proton.me
 - **Inktree**: [here](https://linktr.ee/fastarcher)
 
-##  License
+## 📜 License
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-## Acknowledgments
+## 🤝 Acknowledgments
 - Built with `ffmpeg`, `pngquant`, and `ghostscript`.
 - Inspired by the need to efficiently compress media and documents.
