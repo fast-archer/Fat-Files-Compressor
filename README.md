@@ -37,18 +37,18 @@ sudo pacman -S ffmpeg pngquant ghostscript
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/fat-files-compressor.git
+   git clone https://github.com/fast-archer/fat-files-compressor.git
    cd fat-files-compressor
    ```
 2. Ensure the script is executable:
    ```bash
-   chmod +x fatfiles2.py
+   chmod +x fatfiles.py
    ```
 
 ## Usage
 Run the script from the command line:
 ```bash
-./fatfiles2.py
+./fatfiles.py
 ```
 
 1. **Enter the folder path** containing files to compress.
@@ -61,7 +61,7 @@ Run the script from the command line:
 
 ### Example
 ```bash
-$ ./fatfiles2.py
+$ ./fatfiles.py
 Fat Files Compressor v1.0
 Enter folder path: /home/user/Pictures/sw
 
