@@ -91,8 +91,15 @@ Done! All compressed files are in the 'compressed' folder.
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests for new features, bug fixes, or additional format support.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+##  Contact
+
+For discussions or suggestions, reach out:
+- **Email**: epidermis_essential@proton.me
+- **Inktree**: [here](https://linktr.ee/fastarcher)
+
+##  License
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 ## Acknowledgments
 - Built with `ffmpeg`, `pngquant`, and `ghostscript`.
